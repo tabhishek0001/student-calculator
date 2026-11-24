@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101827">
+<meta name="description" content="Free student calculator suite: scientific, matrix, equation, statistics, unit, percentage and GPA calculators.">
+<title>Student Calculator Suite</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="./"><span class="brand-mark">∑</span><span>Student<span class="brand-light">Calc</span><small>STUDENT TOOLKIT</small></span></a><div class="top-actions"><span class="privacy"><i></i> Calculations stay on your device</span><button id="themeToggle" class="icon-btn" aria-label="Toggle theme" title="Toggle theme">◐</button></div></header>
+<main class="shell">
+<section class="hero"><div><p class="eyebrow">A SMARTER WAY TO SOLVE</p><h1>Every calculation.<br><span>One workspace.</span></h1><p class="hero-copy">A practical collection of calculators for classes, assignments and everyday problem-solving.</p></div><div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="formula-card">f(x) = ax² + bx + c</div><div class="formula-small">∫ · √ · π · Σ</div></div></section>
+<div class="workspace">
+<aside class="sidebar"><div class="side-heading">CALCULATORS</div><nav id="toolNav" aria-label="Calculator tools">
+<button class="nav-item active" data-tool="scientific"><span>ƒx</span>Scientific</button>
+<button class="nav-item" data-tool="matrix"><span>▦</span>Matrix</button>
+<button class="nav-item" data-tool="equation"><span>＝</span>Equation solver</button>
+<button class="nav-item" data-tool="statistics"><span>σ</span>Statistics</button>
+<button class="nav-item" data-tool="number"><span>01</span>Number system</button>
+<button class="nav-item" data-tool="unit"><span>↔</span>Unit converter</button>
+<div class="side-heading side-subheading">ACADEMIC</div>
+<button class="nav-item" data-tool="percentage"><span>%</span>Percentage</button>
+<button class="nav-item" data-tool="grades"><span>GPA</span>CGPA / GPA</button>
+<button class="nav-item" data-tool="physics"><span>⚡</span>Physics</button>
+<button class="nav-item" data-tool="chemistry"><span>⚗</span>Chemistry</button>
+</nav><div class="sidebar-note"><span>✦</span><p><b>Made for learning</b><br>Clear inputs, useful results and no unnecessary sign-ups.</p></div></aside>
+<section class="calculator-panel"><div class="panel-head"><div><p class="eyebrow" id="toolCategory">GENERAL PURPOSE</p><h2 id="toolTitle">Scientific calculator</h2><p id="toolDescription">Evaluate expressions with common scientific functions.</p></div><span class="tool-index" id="toolIndex">01 / 10</span></div><div id="toolContent" class="tool-content"></div><div class="panel-foot"><span>⌁ &nbsp; Results are calculated locally in your browser.</span><button id="clearTool" class="text-btn">Clear inputs ↗</button></div></section>
+</div>
+<section class="feature-strip"><div><span class="feature-icon">◈</span><b>Free to use</b><small>No subscriptions or hidden limits.</small></div><div><span class="feature-icon">⌘</span><b>Private by design</b><small>Your values are not uploaded.</small></div><div><span class="feature-icon">▣</span><b>Student focused</b><small>Useful tools in one place.</small></div></section>
+<footer><span>© <span id="year"></span> StudentCalc</span><span>Built for curious minds.</span><a href="https://github.com/tabhishek0001/student-calculator" target="_blank" rel="noopener">Open-source project ↗</a></footer>
+</main>
+<script src="assets/js/app.js" defer></script>
+</body></html>
